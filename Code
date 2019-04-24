@@ -1,5 +1,9 @@
 package millsearch;
 
+// This program will search through a text file of Delaware County Mills using the current keyword "grist". 
+// The keyword can be edited to present flour, paper or other mills instead in the text
+// If a scanner utility is added this program can allow user adjusted input to determine search result.
+
 import java.util.List;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -28,6 +32,7 @@ public class MillSearch
 	    public static List<String> getLinesThatContain(Path path, String match) 
 	    {
 	        List<String> filteredList = null;
+	        // Adjusts for flawed input or data that is not present
 
 	        try(Stream<String> stream = Files.lines(path))
 	        {          
