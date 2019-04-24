@@ -15,7 +15,7 @@ public class MillSearch
 	    public static void main(String args[]) 
 	    {
 	        
-	        Path path = Paths.get("/Users/alexanderstabinski/Desktop/DelCoMills.txt \n" + "");
+	        Path path = Paths.get("/Users/username/Desktop/DelCoMills.txt \n" + "");
 	        // Path will vary dependent upon where file is stored on system
 	                
 
